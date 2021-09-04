@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "blt_version": 2,
   "priority" : 233,
-  "image": "panda.jpg",
+  "image": "panda.png",
   "localized" : false,
   "hooks" : [
     { "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "Core.lua" },
