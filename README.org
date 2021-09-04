@@ -1,0 +1,21 @@
+* Panda Partner
+Let Panda invest you.
+
+Forget the loots, enjoy the co-op.
+
+** Features
+Preview the Panda Mask "Jean-Claude" in MASK STASH to get the following rewards
+- When player's infamy rank is less than 2 and level is less than 100:
+  - 24,000,000 xp, enough to upgrade to level 100
+  - 200,000,000 offshore account
+  - 50,000,000 cash
+  - 240,00 perk point
+  - 24 continental coins
+- When player's infamy rank is less than 5, each preview will bring the following rewards
+  - 137,00 perk point, enough to fill a complete perk
+  - 12 continental coins
+- Otherwise
+  - 6 continental coins
+
+Equip the Panda Mask to get the following effect
+  - Cash, offshore account and continental coins in game will no longer be deducted
