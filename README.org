@@ -27,5 +27,5 @@ Preview the Panda Mask "Jean-Claude" in MASK STASH to get the following rewards
   - 6 continental coins
 
 Equip the Panda Mask to get the following effect
-  - Cash, offshore account and continental coins in game will no longer be deducted
+  - Cash, offshore account and continental coins in game will no longer be deducted, but remember to be professional and don't kill civs
   - Becoming infamous won't reset the level when player's infamy rank is greater than 25 and less than 100

@@ -36,9 +36,9 @@ elseif RequiredScript == "lib/managers/menumanager" then
     end
   end)
 elseif RequiredScript == "lib/managers/moneymanager" then
-  Hooks:PreHook(MoneyManager, "_deduct_from_total", "panda_deduct_total_id", function (self, amount)
+  Hooks:PreHook(MoneyManager, "_deduct_from_total", "panda_deduct_total_id", function (self, amount, reason)
     local current_mask_id = managers.blackmarket:equipped_mask().mask_id
-    if current_mask_id == "panda" then
+    if current_mask_id == "panda" and reason ~= "civilian_killed" then
       managers.money:_add_to_total(amount, { no_offshore = true })
     end
   end)
