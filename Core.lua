@@ -24,6 +24,17 @@ elseif RequiredScript == "lib/managers/customsafehousemanager" then
       managers.custom_safehouse:add_coins(amount)
     end
   end)
+elseif RequiredScript == "lib/managers/menumanager" then
+  Hooks:PostHook(MenuCallbackHandler, "become_infamous", "panda_become_infamous_id", function (self, params)
+    local current_mask_id = managers.blackmarket:equipped_mask().mask_id
+    if current_mask_id == "panda" then
+      local infamy = managers.experience:current_rank()
+      local level = managers.experience:current_level()
+      if infamy > 25 and infamy <= 100 and level == 0 then
+        managers.experience:add_points(24e6, false, true)
+      end
+    end
+  end)
 elseif RequiredScript == "lib/managers/moneymanager" then
   Hooks:PreHook(MoneyManager, "_deduct_from_total", "panda_deduct_total_id", function (self, amount)
     local current_mask_id = managers.blackmarket:equipped_mask().mask_id
